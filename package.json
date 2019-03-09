@@ -1,0 +1,52 @@
+{
+  "name": "tslint-jest-rules",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "main": "./dist/index.js",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hardeep/tslint-jest-rules.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "jest": "^24.3.1",
+    "prettier": "^1.16.4",
+    "ts-jest": "^24.0.0",
+    "tslint": "^5.13.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.3.3333",
+    "husky": "^1.3.0",
+    "lint-staged": "^8.1.0"
+  },
+  "lint-staged": {
+    "src/**/*.ts": [
+      "node_modules/.bin/prettier --write --config .prettierrc",
+      "git add"
+    ]
+  },
+  "dependencies": {},
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "testMatch": [
+      "**/**/*.spec.(ts|tsx)"
+    ],
+    "testEnvironment": "node"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hardeep/tslint-jest-rules/issues"
+  },
+  "homepage": "https://github.com/hardeep/tslint-jest-rules#readme"
+}

@@ -1,0 +1,21 @@
+{
+  "extends": ["tslint:latest", "tslint-config-prettier"],
+  "rules": {
+	"type-literal-delimiter": true,
+	"variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore", "allow-snake-case", "allow-pascal-case"],
+	"object-literal-sort-keys": false,
+	"only-arrow-functions":false,
+	"ban-types":false,
+	"member-access":false,
+	"member-ordering":false,
+	"no-implicit-dependencies":false,
+	"ordered-imports":false,
+	"no-submodule-imports":false,
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/prefer-to-have-length": "warn",
+    "jest/valid-expect": "error"
+  },
+	"plugins": ["jest"]
+}

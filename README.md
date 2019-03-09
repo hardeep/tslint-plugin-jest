@@ -2,7 +2,7 @@
 
 TSLint Plugin for Jest 
 
-[![Known Vulnerabilities](https://snyk.io/test/github/hardeep/tslint-plugin-jest/badge.svg?targetFile=package.json)](https://snyk.io/test/github/hardeep/tslint-plugin-jest?targetFile=package.json)
+[![Known Vulnerabilities](https://snyk.io/test/github/hardeep/tslint-plugin-jest/badge.svg?targetFile=package.json)](https://snyk.io/test/github/hardeep/tslint-plugin-jest?targetFile=package.json) [![Build Status](https://travis-ci.org/hardeep/tslint-plugin-jest.svg?branch=master)](https://travis-ci.org/hardeep/tslint-plugin-jest)
 
 
 # Usage

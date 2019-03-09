@@ -12,6 +12,11 @@
     "type": "git",
     "url": "git+https://github.com/hardeep/tslint-jest-rules.git"
   },
+  "keywords": [
+    "jest",
+    "typescipt",
+    "tslint"
+  ],
   "devDependencies": {
     "@types/jest": "^24.0.11",
     "husky": "^1.3.0",
@@ -50,7 +55,7 @@
     ],
     "testEnvironment": "node"
   },
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/hardeep/tslint-jest-rules/issues"
   },

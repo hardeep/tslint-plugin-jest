@@ -1,4 +1,4 @@
 {
-	"extends": "tslint:recommended",
+	"extends": ["tslint:recommended", "tslint-config-prettier"],
 	"rulesDirectory": "dist"
 }

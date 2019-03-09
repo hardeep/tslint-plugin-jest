@@ -1,0 +1,6 @@
+{
+	"useTabs": true,
+  "tabWidth": 1,
+  "parser": "typescript",
+  "trailingComma": "es5" 
+}

@@ -7,7 +7,7 @@
     "test": "jest"
   },
   "main": "./tslint",
-  "author": "",
+  "author": "Hardeep Shoker <shokerhardeep@gmail.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hardeep/tslint-jest-rules.git"

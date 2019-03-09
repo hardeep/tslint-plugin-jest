@@ -2,6 +2,9 @@
 
 TSLint Plugin for Jest 
 
+[![Known Vulnerabilities](https://snyk.io/test/github/hardeep/tslint-plugin-jest/badge.svg?targetFile=package.json)](https://snyk.io/test/github/hardeep/tslint-plugin-jest?targetFile=package.json)
+
+
 # Usage
 
 
